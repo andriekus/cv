@@ -32,21 +32,24 @@ const workPlaces = [
         position: 'Barmenas - padavėjas',
         startDate: '2017 09',
         endDate: 'Dabar',
-        learned: 'Dirbdamas šioje darbovietėje sutinku begales įvairių žmonių, todėl, akivaizdu, jog tenka spręsti ir nemažai problemų. Manau, kad ši darbovietė ugdo mano anglų kalbos, komunikacijos bei problemų sprendimo žinias.'
+        duration: '1-eri metai ir 2 mėnėsiai',
+        learned: 'Šiame viešbutyje tenka aptarnauti aukštas pareigas užimančius asmenis, kurie yra sektinas pavyzdys ir skatina siekti karjeros aukštumų. Nuolatinis bendravimas su svečiais iš užsienio lavina anglų kalbos žinias.'
     },
     {
         title: 'IĮ MVK-3 "Viliošiai"',
         position: 'Barmenas - padavėjas',
         startDate: '2017 06',
         endDate: '2017 09',
-        learned: 'Antrasis sezoninis darbas, kuriame išmokau, kaip reikia dirbti komandoje, o tuo pačiu įgavau įgūdžių, kurių pagalba galėjau pretenduoti į geresnę darbo poziciją Kaune.'
+        duration: '3 mėnėsiai',
+        learned: 'Dirbdamas aptarnavimo srityje susidurdavau su įvairiomis situacijomis, kuriose reikėdavo greito sprendimo. Ši darbovietė išmokė mane priimti tinkamus sprendimus ir tolerantiškumo įvairiems žmonėms.'
     },
     {
         title: 'UAB "Nailtex"',
         position: 'Darbininkas',
         startDate: '2016 06',
         endDate: '2016 09',
-        learned: 'Mano pirmas darbas, kuriame kažkiek supratau, ką reiškia "žengti į suaugusių gyvenimą", tuo pačiu darbas buvo fizinis, todėl tada visiškai nusprendžiau, kad sunkus fizinis darbas - ne man, todėl reikia siekti aukštojo mokslo. '
+        duration: '3 mėnesiai',
+        learned: 'Pirma darbovietė išmokė atsakingai žiūrėti į darbą. Dirbdamas su vyresnio amžiaus žmonėmis išmokau komunikuoti ir prisitaikyti prie kolegų. Kadangi darbas buvo fiziškai sunkus, tapau ištvermingesnis.'
     }
 ];
 

@@ -3,11 +3,11 @@ import IntroRows from './IntroRows';
 import uuid from 'uuid';
 
 const facts = [
-    "Esu antro kurso studentas Kauno technologijos universitete",
-    "Žingeidus, savamokslis bei siekiantis aukščiausių tikslų",
-    "Taip, labai mėgstu oranžinę spalvą... Internetiniuose puslapiuose"
-
-
+    "Antro kurso studentas Kauno technologijos universitete",
+    "Šiuo metu dirbu viešbutyje „Park Inn by Radisson Kaunas“",
+    "Visados trykštantis pozityvimu ir optimizmu",
+    "Unikalaus charakterio jaunuolis su aistra tobulėti",
+    "Visada dedantis maksimalias pastangas į kiekvieną veiklą"
 ];
 
 export default () => (

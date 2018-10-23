@@ -11,17 +11,31 @@
 }
 .container {
     min-height: 100%;
-    background-color: #FF6500;
+    background-color: $bright-orange;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+.skills {
+    text-align: left;
+}
+.personal {
+    text-align: right;
+}
 @media (max-width: 1280px) {
+    .skills {
+        text-align: left;
+        align-content: unset;
+        top: 0;
+        right: 0;
+    }
     .factLeft {
         text-align: center;
     }
-    .factRight {
-        text-align: center;
+    .personal {
+        text-align: left;
     }
-
+}
+.col-sm-2 {
+    text-align: left;
 }

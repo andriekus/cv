@@ -4,8 +4,8 @@ import Avatar from '@material-ui/core/Avatar';
 
 const styles = {
     avatar: {
-        width: 80,
-        height: 80
+        width: 130,
+        height: 130
     }
 };
 

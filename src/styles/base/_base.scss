@@ -13,7 +13,7 @@ body {
 }
 p, div {
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    color: $white;
     letter-spacing: 0.3px;
 }
 
@@ -34,14 +34,13 @@ a, button, span {
     }
 }
 a {
-    color: #FF6500 !important;
+    color: $bright-orange !important;
 }
 a:hover {
     color: #000000 !important;
-    background-color: #FF6500;
+    background-color: $bright-orange;
 }
 
-//////////////////////////////////////////////////////////////
 @media (max-width: 1280px) {
     h1, h2, h3, h4, h5, h6 {
         text-align: center
@@ -55,15 +54,15 @@ h2, h3, h4, h5, h6 {
 }
 ::selection {
     background:#000000;
-    color: #FF6500;
+    color: $bright-orange;
     }
     
     ::-moz-selection {
     background:#000000;
-    color:#FF6500;
+    color: $bright-orange;
     }
     
     ::-webkit-selection {
     background:#000000;
-    color:#FF6500;
+    color: $bright-orange;
     }

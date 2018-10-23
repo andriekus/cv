@@ -1,19 +1,17 @@
 .centeredHeader {
     text-align: center;
     margin-left: -105%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .avatar {
-    top: 20px;
-    left: 10px;
+    margin-top: 20px;
     position: absolute;
 }
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
     .avatar {
         display: none;
         visibility: hidden;
-    }
-    .centeredHeader {
-        text-align: center;
     }
 }
 @media (max-width: 576px) {
