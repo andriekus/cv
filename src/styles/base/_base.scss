@@ -1,9 +1,6 @@
 html {
     font-size: 100%;
-    overflow-x: hidden;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -16,7 +13,7 @@ body {
 p, div {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.3px;
 }
 
 button {
@@ -25,29 +22,6 @@ button {
 
 button:disabled {
     cursor: default;
-}
-.container {
-    min-height: 100%;
-    background-color: #E8630C;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.footer {
-    background-color: black;
-    h5 {
-        color: #E8630C;
-    }
-    h6 {
-        color: #E8630C;
-    }
-    margin-left: -15px;
-    margin-right: -15px;
-}
-.centered {
-    justify-content: center;
-    display: inline;
-    text-align: center;
 }
 a, button, span {
     text-decoration: none !important;
@@ -58,57 +32,19 @@ a, button, span {
         outline: none !important;
     }
 }
-.centeredHeader {
-    text-align: center;
-    margin-left: -105%;
+a {
+    color: #FF6500 !important;
 }
-.factLeft {
-    text-align: left;
+a:hover {
+    color: #000000 !important;
+    background-color: #FF6500;
 }
-.factRight {
-    text-align: right;
-}
+
+//////////////////////////////////////////////////////////////
 @media (max-width: 1280px) {
-    .factLeft {
-        text-align: center;
-    }
     h1, h2, h3, h4, h5, h6 {
         text-align: center
     }
-    .factRight {
-        text-align: center;
-    }
-    img {
-        display: none;
-        visibility: hidden;
-    }
-    .centeredHeader {
-        margin-left: 0;
-        text-align: center;
-    }
-    .mediaButtons {
-        display: none;
-        visibility: hidden;
-    }
-    .btn-group {
-        visibility: visible;
-    }
-}
-.btn-group {
-    a:hover {
-        background: black;
-    }
-}
-.mediaButtons {
-    padding-top: 35px;
-    justify-content: center;
-}
-img {
-    width: 130px;
-    height: 130px;
-    top: 0;
-    left: 0;
-    position: absolute;
 }
 h1 {
     letter-spacing: 1.4px;
@@ -117,29 +53,16 @@ h2, h3, h4, h5, h6 {
     letter-spacing: 1.2px;
 }
 ::selection {
-    background:#FFFFFF;
-    color: #E8630C;
+    background:#000000;
+    color: #FF6500;
     }
     
     ::-moz-selection {
-    background:#FFFFFF;
-    color:#E8630C;
+    background:#000000;
+    color:#FF6500;
     }
     
     ::-webkit-selection {
-    background:#FFFFFF;
-    color:#E8630C;
+    background:#000000;
+    color:#FF6500;
     }
-@media (min-width: 1280px) {
-    .btn-group {
-        display: none;
-        visibility: hidden;
-    }
-}
-a {
-    color: #E8630C;
-}
-a:hover {
-    color: #000000;
-    background-color: #E8630C;
-}

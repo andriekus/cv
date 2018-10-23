@@ -6,23 +6,23 @@ export default () => (
         <div className="col-sm-6">
             <h3>Įgūdžiai</h3>
             <div className="factLeft">
-            <div className="row">
-                <div className="col-sm-12">
-                    <h5>{<i className="material-icons">fiber_manual_record</i>} ReactJS</h5>
-                    <ProgressBar completed={60} color="white" />
-                    <br />
-                    <h5>{<i className="material-icons">fiber_manual_record</i>} Redux</h5>
-                    <ProgressBar completed={50} color="white" />
-                    <br />
-                    <h5>{<i className="material-icons">fiber_manual_record</i>} CSS</h5>
-                    <ProgressBar completed={80} color="white" />
-                    <br />
-                    <h5>{<i className="material-icons">fiber_manual_record</i>} Material-UI</h5>
-                    <ProgressBar completed={90} color="white" />
-                    <br />
-                    <h5>{<i className="material-icons">fiber_manual_record</i>} Bootstrap</h5>
-                    <ProgressBar completed={100} color="white" />
-                </div>
+                <div className="row">
+                    <div className="col-sm-12">
+                        <h5>{<i className="material-icons">fiber_manual_record</i>} ReactJS</h5>
+                        <ProgressBar completed={60} color="white" />
+                        <br />
+                        <h5>{<i className="material-icons">fiber_manual_record</i>} Redux</h5>
+                        <ProgressBar completed={50} color="white" />
+                        <br />
+                        <h5>{<i className="material-icons">fiber_manual_record</i>} CSS</h5>
+                        <ProgressBar completed={80} color="white" />
+                        <br />
+                        <h5>{<i className="material-icons">fiber_manual_record</i>} Material-UI</h5>
+                        <ProgressBar completed={90} color="white" />
+                        <br />
+                        <h5>{<i className="material-icons">fiber_manual_record</i>} Bootstrap</h5>
+                        <ProgressBar completed={100} color="white" />
+                    </div>
                 </div>
             </div>
         </div>

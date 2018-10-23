@@ -15,10 +15,10 @@ const educationItem = ({ title, startDate, endDate, note }) => (
         </div>
         {note.length !== 0 &&
             <div className="row">
-            <div className="col-sm-12">
-                <h6>{<i className="material-icons">subject</i>} {note}</h6>
-            </div>
-        </div>}
+                <div className="col-sm-12">
+                    <h6>{<i className="material-icons">subject</i>} {note}</h6>
+                </div>
+            </div>}
         <hr />
     </div>
 );

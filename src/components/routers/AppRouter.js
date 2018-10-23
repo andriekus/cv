@@ -6,7 +6,7 @@ import MainPage from '../homePage/MainPage';
 const theme = createMuiTheme({
     palette: {
         primary: {
-            main: '#ff6f00'
+            main: '#FF6500'
         },
         secondary: {
             main:'#FFFFFF'
@@ -19,7 +19,7 @@ const theme = createMuiTheme({
 
 export default () => (
     <MuiThemeProvider theme={theme}>
-            <div className="page">
+            <div>
                 <MainPage />
             </div>
     </MuiThemeProvider>

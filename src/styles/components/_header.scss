@@ -1,0 +1,23 @@
+.centeredHeader {
+    text-align: center;
+    margin-left: -105%;
+}
+.avatar {
+    top: 20px;
+    left: 10px;
+    position: absolute;
+}
+@media (max-width: 1280px) {
+    .avatar {
+        display: none;
+        visibility: hidden;
+    }
+    .centeredHeader {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .centeredHeader {
+        margin-left: 0;
+    }
+}

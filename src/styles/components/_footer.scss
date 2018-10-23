@@ -1,0 +1,59 @@
+.footer {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    h5 {
+        color: #FF6500;
+    }
+    h6 {
+        color: #FF6500;
+    }
+    margin-left: -15px;
+    margin-right: -15px;
+    ::selection {
+        background:#FFFFFF;
+        color: #FF6500;
+        }
+        ::-moz-selection {
+        background:#FFFFFF;
+        color:#FF6500;
+        }
+        ::-webkit-selection {
+        background:#FFFFFF;
+        color:#FF6500;
+        }
+}
+.btn-group {
+    a:hover {
+        background: black;
+    }
+}
+.mediaButtons {
+    padding-top: 0;
+    justify-content: center;
+    a:hover {
+        background: #000000;
+    }
+}
+@media (max-width: 1280px) {
+    .mediaButtons {
+        display: none;
+        visibility: hidden;
+    }
+    .btn-group {
+        visibility: visible;
+        padding-top: 100px;
+    }
+}
+@media (min-width: 1280px) {
+    .btn-group {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (max-width: 576px) {
+    .btn-group {
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+}

@@ -1,0 +1,27 @@
+.centered {
+    justify-content: center;
+    display: inline;
+    text-align: center;
+}
+.factLeft {
+    text-align: left;
+}
+.factRight {
+    text-align: right;
+}
+.container {
+    min-height: 100%;
+    background-color: #FF6500;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 1280px) {
+    .factLeft {
+        text-align: center;
+    }
+    .factRight {
+        text-align: center;
+    }
+
+}

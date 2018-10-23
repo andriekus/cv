@@ -2,19 +2,10 @@ import React from 'react';
 import IntroRows from './IntroRows';
 import uuid from 'uuid';
 
-function shortIntro(props) {
-    const { classes } = props;
-    return (
-        <div>
-            <h3>Trumpai apie mane</h3>
-        </div>
-    );
-}; 
-
 const facts = [
-    "Esu antro kurso studentas Kauno technologijos universitete,",
-    "Žingeidus, savamokslis bei siekiantis aukščiausių tikslų,",
-    "Taip, labai mėgstu oranžinę spalvą... Internetiniuose puslapiuose."
+    "Esu antro kurso studentas Kauno technologijos universitete",
+    "Žingeidus, savamokslis bei siekiantis aukščiausių tikslų",
+    "Taip, labai mėgstu oranžinę spalvą... Internetiniuose puslapiuose"
 
 
 ];

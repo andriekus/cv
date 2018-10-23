@@ -8,6 +8,7 @@ import SwipeableViews from 'react-swipeable-views';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
+import uuid from 'uuid';
 import { withStyles } from '@material-ui/core/styles';
 
 const schools = [
@@ -104,17 +105,17 @@ class FullWidthTabs extends React.Component {
                         index={this.state.value}
                         onChangeIndex={this.handleChangeIndex}
                         >
-                        <TabContainer dir={theme.direction}>{schools.map((school) => {
-                            return <EducationInfoItem {...school} />
-                        })}</TabContainer>
-                        <TabContainer dir={theme.direction}>
-                        <div className="row">
-                        {workPlaces.map((workPlace) => {
-                            return <WorkInfoItem {...workPlace} />
-                        })}
-                        </div>
-                        </TabContainer>
-                        <TabContainer dir={theme.direction}><Skills /></TabContainer>
+                            <TabContainer dir={theme.direction}>{schools.map((school) => {
+                                return <EducationInfoItem key={uuid()} {...school} />
+                            })}</TabContainer>
+                            <TabContainer dir={theme.direction}>
+                            <div className="row">
+                                {workPlaces.map((workPlace) => {
+                                    return <WorkInfoItem key={uuid()} {...workPlace} />
+                                })}
+                            </div>
+                            </TabContainer>
+                            <TabContainer dir={theme.direction}><Skills /></TabContainer>
                         </SwipeableViews>
                     </AppBar>
                 </div>
