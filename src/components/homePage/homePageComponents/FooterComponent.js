@@ -26,7 +26,7 @@ export default () => (
                         <div className="col-sm-12">
                             <div className="row">
                                 <div className="col-sm-6">
-                                    <SocialIcon url="https://www.linkedin.com/in/justinas-andriekus-b51072155/" color="E8630C" />              
+                                    <SocialIcon url="https://www.linkedin.com/in/justinas-andriekus/" color="E8630C" />              
                                 </div>
                                 <div className="col-sm-6">
                                     <div className="rightButton">
