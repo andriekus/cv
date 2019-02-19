@@ -32,7 +32,7 @@ const workPlaces = [
         position: 'Barmenas - padavėjas',
         startDate: '2017 09',
         endDate: 'Dabar',
-        duration: '1-eri metai ir 2 mėnėsiai',
+        duration: '1-eri metai ir 5 mėnėsiai',
         learned: 'Šiame viešbutyje tenka aptarnauti aukštas pareigas užimančius asmenis, kurie yra sektinas pavyzdys ir skatina siekti karjeros aukštumų. Nuolatinis bendravimas su svečiais iš užsienio lavina anglų kalbos žinias.'
     },
     {
