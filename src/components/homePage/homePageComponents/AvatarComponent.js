@@ -14,7 +14,7 @@ function AvatarComponent(props) {
     return (
         <Avatar 
          alt="Justinas Andriekus"
-         src="https://scontent.fvno3-1.fna.fbcdn.net/v/t1.0-9/17553959_1271831666270690_8022462577852088696_n.jpg?_nc_cat=100&oh=06176471461371da2c3c1d403ce6f68f&oe=5C5840BC"
+         src="https://media.licdn.com/dms/image/C4D03AQHXrf3XNnfWKA/profile-displayphoto-shrink_200_200/0?e=1556150400&v=beta&t=Jl-iwmGmfQIHYFvkS107D0p8zUB3WqXHSxopSQ9dK7U"
          className={classes.avatar}
          />
     );
